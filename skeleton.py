@@ -2,8 +2,14 @@
 
 #takes a string s as argument and converts it from binary to decimal form
 def bin_to_dec(s):
+	lis = list(s)
+	outlis = []
+	i=0
+	sum = 0
+	for dig in lis:
+		curNum = dig*(2**i)
+		sum+=curNum
 	
-
 	return n #Number n in decimal form will be returned
 
 

@@ -1,16 +1,23 @@
 def factorial(number_for_factorial):
-	# Add code here
-	return #Factorial number
+	prod = 1
+	while(number_for_factorial!=1):
+		prod *= number_for_factorial
+	return prod
 
 
 def gcd(number_1, number_2):
-    # Add code here
-    return #gcd value
+    if(number1<number2):
+		number1,number2 = number2,number1
+	while(number2!=0):
+		number_1,number_2 = number_2,number_1%number_2
+    return number_1
 
 
-def is_palindrome(string_to_check):
-	# Add code here
-	return #boolean response
+def is_palindrome(string_to_check):	
+	new_string = string_to_check[::-1]
+	if new_string == string_to_check:
+		return True
+	return False
 
 
 #Take input for fib in variable a

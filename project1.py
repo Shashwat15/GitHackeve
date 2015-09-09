@@ -13,8 +13,7 @@ def reverse_string(string_to_be_reversed):
 	a.reverse()
 	str1=""
 	for i in a:
-                str1=str1+i
-	
+        str1=str1+i
 	return str1
 
 
