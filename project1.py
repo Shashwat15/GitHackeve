@@ -9,8 +9,13 @@ def is_prime(number_to_check):
 
 
 def reverse_string(string_to_be_reversed):
-	# Add code here
-	return #reversed_string
+	a=list(string_to_be_reversed)
+	a.reverse()
+	str1=""
+	for i in a:
+                str1=str1+i
+	
+	return str1
 
 
 #Take input for fib in variable a
