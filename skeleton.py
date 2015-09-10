@@ -9,7 +9,26 @@ def bin_to_dec(s):
 
 #takes a number n as argument and converts it from decimal to hexadecimal form
 def dec_to_hex(n):
-	
+        lst=[]
+        while 0>=16:
+                o=b//16
+
+                if o>=1 and o<=9:
+                        lst.append
+                elif o=10:
+                        lst.append(a)
+                elif o=11:
+                        lst.append(b)
+                elif o=12:
+                        lst.append(c)
+                elif o=13:
+                        lst.append(d)
+                elif o=14:
+                        lst.append(e)
+                elif o=16:
+                        lst.append(f)
+        
+	lst.reverse()
 	
 	return str1 #String str1 will be returned in hexadecimal form
 
