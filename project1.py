@@ -4,7 +4,13 @@ def fib(number_for_fibonacci):
 
 
 def is_prime(number_to_check):
-    # Add code here
+    n=0
+    while n<=b/2:
+            if b/n==0:
+                    print ("not prime")
+            elif b/n!=0:
+                    print ("prime")
+            n=n+1
     return #boolean value
 
 
@@ -24,10 +30,10 @@ print(fib(a))
 
 
 #Take input for is_prime in variable b
-
+b=int(input())
 print(is_prime(b))
 
 
 #Take input for reverse in variable c
-
+c=input()
 print(reversed_string(c))
